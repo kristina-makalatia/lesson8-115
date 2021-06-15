@@ -1,0 +1,40 @@
+.wraper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.left-block {
+    width: 250px;
+    height: 200px;
+    background-color: blue;
+}
+.right-block {
+    width: 250px;
+    height: 200px;
+    background-color:yellow;
+}
+.center-block {
+    width: 250px;
+    height: 200px;
+    background-color: green;
+}
+
+.container {
+    max-width: 1170px;
+    /* height: 500px; */
+    width: 100%;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+.images-wraper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.block {
+    width: 270px;
+}
+.block img {
+    width: 100%;
+}
