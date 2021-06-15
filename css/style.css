@@ -38,3 +38,11 @@
 .block img {
     width: 100%;
 }
+.bg-image {
+    background-image: url('../images/photographer.jpg');
+    height: 500px;
+    width: 700px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+}
